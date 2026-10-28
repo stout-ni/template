@@ -1,0 +1,25 @@
+{
+  "name": "template",
+  "private": true,
+  "type": "module",
+  "module": "index.ts",
+  "scripts": {
+    "prepare": "husky",
+    "lint": "oxlint",
+    "fmt": "oxfmt",
+    "typecheck": "bun check"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^20",
+    "@commitlint/config-conventional": "^20",
+    "@types/bun": "latest",
+    "cspell": "^10",
+    "husky": "^9",
+    "lint-staged": "^17.6.0",
+    "oxfmt": "^0.75.0",
+    "oxlint": "^1.90.0"
+  },
+  "peerDependencies": {
+    "typescript": "^7"
+  }
+}

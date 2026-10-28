@@ -1,0 +1,5 @@
+{
+  "**/*.{js,jsx,ts,tsx,mjs,cjs}": ["bunx oxlint --fix"],
+  "**/*.{css,less,scss,sass}": ["bunx stylelint --fix"],
+  "**/*": ["bunx oxfmt --write", "bunx cspell -c cspell.json --no-progress --no-must-find-files"]
+}
